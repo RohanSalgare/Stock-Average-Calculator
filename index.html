@@ -9,17 +9,20 @@
 </head>
 
 <body>
-    <nav
-        class="bg-white w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 shadow-md font-bodyfont ">
-        <div class="flex  flex-wrap justify-center gap-x-32 p-3 md:order-2">
-
-            <div id="avecal" class="cursor-pointer text-3xl hover:text-blue-400 text-blue-400 " onclick="switchToAve()">
+     <nav class="bg-white w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 shadow-md font-bodyfont ">
+        <ul class="flex  flex-wrap justify-center gap-x-32 p-3 md:order-2">
+           
+            <li>
+            <a id="avecal" class="cursor-pointer text-3xl hover:text-blue-400 text-blue-400 underline-offset-1 "
+                onclick="switchToAve()">
                 Average
-                Calculator</div>
-            <div id="sipcal" class="cursor-pointer text-3xl hover:text-blue-400 " onclick="switchToSIP()">
-                SIP Calculator </div>
+                Calculator</a> </li>
+            <li>
+                <a id="sipcal" class="cursor-pointer text-3xl hover:text-blue-400 " onclick="switchToSIP()">
+                    SIP Calculator </a>
+            </li>
 
-        </div>
+        </ul>
     </nav>
     <div id="ave-cal" class="block font-bodyfont">
         <div class="flex justify-center pt-7">
@@ -149,7 +152,7 @@
 
             <a href="https://github.com/RohanSalgare" target="_blank"><img src="assets/images/github.svg" class="h-5 w-5 "
                     alt="github" /></a>
-            <a href="https://www.linkedin.com/in/rohan-salgare-b9557a217/"><img src="assets/images/linkedin.svg"
+            <a href="https://www.linkedin.com/in/rohan-salgare-b9557a217/" target="_blank"><img src="assets/images/linkedin.svg"
                     class="h-5 w-5 " alt="linkedin" /></a>
         </div>
     </footer>
