@@ -105,3 +105,11 @@ function ClearFields() {
     }
 }
 
+function enterKeyPressed(event) {
+    if (event.keyCode == 13 && aveView.classList.contains("block") ) {
+       document.getElementById("cal-Ave").click();
+    } 
+    if (event.keyCode == 13 && SIPview.classList.contains("block") ) {
+        document.getElementById("cal-SIP").click();
+     } 
+ }
